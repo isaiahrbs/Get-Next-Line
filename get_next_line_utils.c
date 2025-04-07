@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: irobinso <irobinso@student.42lausanne.c    +#+  +:+       +#+        */
+/*   By: irobinso <irobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 22:23:41 by rodrigo           #+#    #+#             */
-/*   Updated: 2024/10/31 11:04:54 by irobinso         ###   ########.fr       */
+/*   Updated: 2024/10/31 15:15:52 by irobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ area pointed to by s to zero.
 */
 void	ft_bzero(void *s, size_t n)
 {
-	char *str;
+	char	*str;
 
 	str = (char *)s;
 	while (n != 0)
